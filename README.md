@@ -8,8 +8,9 @@
 ## EXE 파일 생성 방법
 1. Python 3.10 이하 설치 ( Pyqt5가 높은버전에서는 제대로 작동하지 않습니다. )
 2. `pip install pyqt5 requests`로 필요한 패키지 설치
-3. `pyinstaller --onefile --noconsole --add-data "background.png;." UI_version_3.py` 명령어 실행
-4. ㄴ background 파일을 exe파일에 포함시키며, 프로그램창 이외의 터미널 생성을 억제합니다.
+3. 배경화면으로 사용할 사진을 코드와 같은 경로에 넣고 "background.png"로 이름을 입력하세요.
+4. `pyinstaller --onefile --noconsole --add-data "background.png;." chk_auto_waiting.py` 명령어 실행
+5. ㄴ background 파일을 exe파일에 포함시키며, 프로그램창 이외의 터미널 생성을 억제합니다.
 
 ## 다운로드 링크
 EXE 파일을 다운로드하려면 [여기](https://drive.google.com/file/d/1g8HldDRYY_KFP3Z5qLd3Rr3PgZtip2HY/view?usp=sharing)를 클릭하세요.
